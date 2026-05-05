@@ -1,0 +1,78 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment files (CONTAIN SECRETS — never commit) ---
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# --- Editor / IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Local tooling (not part of the project) ---
+.claude/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- External datasets (cloned separately, too large for git) ---
+data/bug_datasets/
+
+# --- Per-bug Defects4J workdirs that the harness stages ---
+data/defects4j_workdirs/
+
+# --- Knowledge-graph local snapshots ---
+data/knowledge_base/*.dump
+data/knowledge_base/*.cypher
+
+# --- Coverage / build artifacts ---
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.dist-info/
+
+# --- Misc temp / draft scripts (single-underscore prefix only;
+#     __init__.py / __main__.py must be tracked) ---
+_[a-z]*.py
+_gen_*.py
+_md_to_*.py
+_ws_*.py
+*.tmp
+*.bak
+
+# --- Word / Office lockfiles (in case any documents end up here) ---
+~$*.docx
+~$*.doc
+
+# --- Research / paper documents (kept local if any land here) ---
+*_Paper*.md
+*_Paper*.pdf
+*_Paper*.docx

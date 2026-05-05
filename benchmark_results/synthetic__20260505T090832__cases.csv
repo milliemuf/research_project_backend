@@ -1,0 +1,2 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+syn-001-off-by-one,synthetic,False,False,False,False,17160.94,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T09:08:32.477153

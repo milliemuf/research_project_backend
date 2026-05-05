@@ -1,0 +1,46 @@
+{
+  "dataset": "synthetic",
+  "started_at": "2026-05-05T07:57:41.870154",
+  "finished_at": "2026-05-05T07:57:53.805453",
+  "duration_seconds": 11.94,
+  "total_cases": 1,
+  "successes": 0,
+  "safety_violations": 0,
+  "success_rate": 0.0,
+  "metrics": {
+    "consensus_throughput_per_min": 0.0,
+    "consensus_latency_p50_ms": 0.0,
+    "consensus_latency_p99_ms": 0.0,
+    "consensus_success_rate": 0.0,
+    "safety_violation_rate": 0.0,
+    "average_recovery_time_ms": 0.0,
+    "agent_agreement_rate": 0.0,
+    "total_rounds": 0,
+    "captured_at": "2026-05-05T07:57:53.805475"
+  },
+  "pipeline_config": {
+    "pipeline_type": "real",
+    "sandbox_backend": "subprocess",
+    "concurrency": 1,
+    "case_timeout_s": 180
+  },
+  "per_case": [
+    {
+      "bug_id": "syn-001-off-by-one",
+      "project": "synthetic",
+      "success": false,
+      "consensus_approved": false,
+      "sandbox_passed": false,
+      "safety_violation": false,
+      "duration_ms": 11935.06,
+      "final_stage": "agent_pipeline",
+      "decision_reason": "Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "consensus_prepare_votes": 0,
+      "consensus_commit_votes": 0,
+      "sandbox_exit_code": null,
+      "ground_truth_correct": null,
+      "error": null,
+      "timestamp": "2026-05-05T07:57:53.805447"
+    }
+  ]
+}

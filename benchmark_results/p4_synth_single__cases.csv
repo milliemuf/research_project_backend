@@ -1,0 +1,21 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+syn-001-off-by-one,synthetic,True,True,True,False,21288.18,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:51:58.944684
+syn-002-mutable-default,synthetic,True,True,True,False,14446.03,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:52:13.390982
+syn-003-int-vs-float-div,synthetic,True,True,True,False,20479.8,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:52:33.871026
+syn-004-none-attribute,synthetic,True,True,True,False,8701.5,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:52:42.572753
+syn-005-str-int-concat,synthetic,True,True,True,False,12517.89,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:52:55.090871
+syn-006-slice-off-by-one,synthetic,True,True,True,False,12335.13,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:53:07.426256
+syn-007-missing-return,synthetic,True,True,True,False,13119.9,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:53:20.546415
+syn-008-wrong-comparison,synthetic,True,True,True,False,15341.56,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:53:35.888288
+syn-009-key-typo,synthetic,True,True,True,False,14197.8,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:53:50.086495
+syn-010-zero-division,synthetic,True,True,True,False,15708.63,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:54:05.796118
+syn-011-list-mutation-during-iter,synthetic,True,True,True,False,13289.51,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:54:19.085997
+syn-012-shadow-builtin,synthetic,True,True,True,False,11490.2,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:54:30.576710
+syn-013-wrong-loop-var,synthetic,True,True,True,False,14322.07,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:54:44.899566
+syn-014-empty-list-default,synthetic,True,True,True,False,12921.34,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:54:57.821261
+syn-015-string-format-types,synthetic,True,True,True,False,17109.81,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:55:14.931370
+syn-016-late-binding-closure,synthetic,True,True,True,False,13695.25,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:55:28.626995
+syn-017-int-overflow-confusion,synthetic,True,True,True,False,18600.61,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:55:47.228761
+syn-018-recursion-no-base,synthetic,True,True,True,False,22550.69,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:56:09.779819
+syn-019-misuse-walrus,synthetic,True,True,True,False,17748.85,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:56:27.529701
+syn-020-dict-shallow-copy,synthetic,True,True,True,False,15553.89,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T09:56:43.084499

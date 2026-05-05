@@ -1,0 +1,11 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+ec-001-payment-idempotency,ecommerce,True,True,True,False,32590.31,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:26:18.541403
+ec-002-negative-inventory,ecommerce,True,True,True,False,15443.28,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:26:33.985293
+ec-003-tax-double-application,ecommerce,True,True,True,False,12241.27,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:26:46.226937
+ec-004-currency-rounding,ecommerce,True,True,True,False,21447.42,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:27:07.675050
+ec-005-discount-overstack,ecommerce,True,True,True,False,17605.92,done,single-agent baseline: fix passed sandbox,1,1,0,False,,2026-05-05T11:27:25.281729
+ec-006-cart-total-ignores-qty,ecommerce,True,True,True,False,28678.79,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:27:53.960809
+ec-007-refund-exceeds-original,ecommerce,True,True,True,False,17920.53,done,single-agent baseline: fix passed sandbox,1,1,0,False,,2026-05-05T11:28:11.882075
+ec-008-expired-coupon-applied,ecommerce,True,True,True,False,17096.97,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:28:28.979997
+ec-009-order-state-bypass,ecommerce,True,True,True,False,18998.1,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:28:47.978704
+ec-010-stock-not-decremented,ecommerce,True,True,True,False,19991.58,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T11:29:07.971011

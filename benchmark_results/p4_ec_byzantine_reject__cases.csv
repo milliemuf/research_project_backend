@@ -1,0 +1,11 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+ec-001-payment-idempotency,ecommerce,True,True,True,False,58360.91,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:04:48.014141
+ec-002-negative-inventory,ecommerce,True,True,True,False,50365.77,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:05:38.380444
+ec-003-tax-double-application,ecommerce,True,True,True,False,51166.78,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:06:29.547554
+ec-004-currency-rounding,ecommerce,True,True,True,False,42687.22,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:07:12.235266
+ec-005-discount-overstack,ecommerce,True,True,True,False,52359.24,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:08:04.595106
+ec-006-cart-total-ignores-qty,ecommerce,True,True,True,False,46813.47,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:08:51.408951
+ec-007-refund-exceeds-original,ecommerce,True,True,True,False,43529.13,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:09:34.938687
+ec-008-expired-coupon-applied,ecommerce,True,True,True,False,52057.17,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:10:26.996495
+ec-009-order-state-bypass,ecommerce,True,True,True,False,44981.1,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:11:11.978205
+ec-010-stock-not-decremented,ecommerce,True,True,True,False,44035.14,done,fix approved and sandbox-validated,3,4,0,True,,2026-05-05T12:11:56.013880

@@ -1,0 +1,11 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+syn-001-off-by-one,synthetic,True,True,True,False,457.54,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.053847
+syn-002-mutable-default,synthetic,True,True,True,False,100.23,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.154389
+syn-003-int-vs-float-div,synthetic,True,True,True,False,84.38,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.239041
+syn-004-none-attribute,synthetic,True,True,True,False,92.08,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.331380
+syn-005-str-int-concat,synthetic,True,True,True,False,80.58,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.412229
+syn-006-slice-off-by-one,synthetic,True,True,True,False,86.17,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.498659
+syn-007-missing-return,synthetic,True,True,True,False,90.87,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.589789
+syn-008-wrong-comparison,synthetic,True,True,True,False,91.17,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.681233
+syn-009-key-typo,synthetic,True,True,True,False,89.25,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.770745
+syn-010-zero-division,synthetic,True,True,True,False,91.01,done,mock: consensus + sandbox ok,3,3,0,True,,2026-05-05T07:48:25.862011

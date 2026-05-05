@@ -1,0 +1,46 @@
+{
+  "dataset": "synthetic",
+  "started_at": "2026-05-05T09:09:23.144110",
+  "finished_at": "2026-05-05T09:10:21.133158",
+  "duration_seconds": 57.99,
+  "total_cases": 1,
+  "successes": 1,
+  "safety_violations": 0,
+  "success_rate": 1.0,
+  "metrics": {
+    "consensus_throughput_per_min": 0.0,
+    "consensus_latency_p50_ms": 0.0,
+    "consensus_latency_p99_ms": 0.0,
+    "consensus_success_rate": 0.0,
+    "safety_violation_rate": 0.0,
+    "average_recovery_time_ms": 0.0,
+    "agent_agreement_rate": 0.0,
+    "total_rounds": 0,
+    "captured_at": "2026-05-05T09:10:21.133180"
+  },
+  "pipeline_config": {
+    "pipeline_type": "real",
+    "sandbox_backend": "subprocess",
+    "concurrency": 1,
+    "case_timeout_s": 300
+  },
+  "per_case": [
+    {
+      "bug_id": "syn-001-off-by-one",
+      "project": "synthetic",
+      "success": true,
+      "consensus_approved": true,
+      "sandbox_passed": true,
+      "safety_violation": false,
+      "duration_ms": 57988.7,
+      "final_stage": "done",
+      "decision_reason": "fix approved and sandbox-validated",
+      "consensus_prepare_votes": 4,
+      "consensus_commit_votes": 4,
+      "sandbox_exit_code": 0,
+      "ground_truth_correct": true,
+      "error": null,
+      "timestamp": "2026-05-05T09:10:21.133152"
+    }
+  ]
+}

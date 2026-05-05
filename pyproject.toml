@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codeflow-backend"
+version = "0.1.0"
+description = "Byzantine Fault-Tolerant Multi-Agent System for Autonomous Runtime Program Repair"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Millicent Mufambi", email = "h240624a@hit.ac.zw"}
+]
+keywords = [
+    "automated-program-repair",
+    "byzantine-fault-tolerance",
+    "multi-agent-systems",
+    "llm",
+    "e-commerce"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Bug Tracking",
+]
+
+[project.urls]
+Homepage = "https://github.com/millicent-mufambi/codeflow-ai"
+Documentation = "https://github.com/millicent-mufambi/codeflow-ai#readme"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.coverage.run]
+source = ["app"]
+omit = ["tests/*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 100

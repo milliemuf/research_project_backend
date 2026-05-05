@@ -1,0 +1,46 @@
+{
+  "dataset": "synthetic",
+  "started_at": "2026-05-05T07:56:54.795944",
+  "finished_at": "2026-05-05T07:56:57.070992",
+  "duration_seconds": 2.28,
+  "total_cases": 1,
+  "successes": 0,
+  "safety_violations": 0,
+  "success_rate": 0.0,
+  "metrics": {
+    "consensus_throughput_per_min": 0.0,
+    "consensus_latency_p50_ms": 0.0,
+    "consensus_latency_p99_ms": 0.0,
+    "consensus_success_rate": 0.0,
+    "safety_violation_rate": 0.0,
+    "average_recovery_time_ms": 0.0,
+    "agent_agreement_rate": 0.0,
+    "total_rounds": 0,
+    "captured_at": "2026-05-05T07:56:57.071007"
+  },
+  "pipeline_config": {
+    "pipeline_type": "real",
+    "sandbox_backend": "subprocess",
+    "concurrency": 1,
+    "case_timeout_s": 180
+  },
+  "per_case": [
+    {
+      "bug_id": "syn-001-off-by-one",
+      "project": "synthetic",
+      "success": false,
+      "consensus_approved": false,
+      "sandbox_passed": false,
+      "safety_violation": false,
+      "duration_ms": 2274.9,
+      "final_stage": "agent_pipeline",
+      "decision_reason": "Analysis failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011Caj4ix2cBdiHvrT2DuJB7'}",
+      "consensus_prepare_votes": 0,
+      "consensus_commit_votes": 0,
+      "sandbox_exit_code": null,
+      "ground_truth_correct": null,
+      "error": null,
+      "timestamp": "2026-05-05T07:56:57.070987"
+    }
+  ]
+}

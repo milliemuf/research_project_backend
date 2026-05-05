@@ -1,0 +1,2 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+syn-001-off-by-one,synthetic,True,True,True,False,57988.7,done,fix approved and sandbox-validated,4,4,0,True,,2026-05-05T09:10:21.133152

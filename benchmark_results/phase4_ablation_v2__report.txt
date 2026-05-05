@@ -1,0 +1,63 @@
+======================================================================
+H-BFT CONSENSUS vs SINGLE-AGENT BASELINE — ABLATION REPORT
+======================================================================
+
+--- OVERALL ---
+  Paired cases: 50
+  Success rate         : consensus 0.700  vs baseline 0.680
+  Safety violation rate: consensus 0.060  vs baseline 0.300
+  Mean duration (ms)   : consensus 46245  vs baseline 17558
+  Latency p99 (ms)     : consensus 70452  vs baseline 30674
+  Ground-truth accuracy: consensus 0.816  vs baseline 0.660
+
+  Pairwise safety-violation breakdown:
+    both_violated               : 3
+    only_consensus_violated     : 0
+    only_baseline_violated      : 12
+    neither_violated            : 35
+  Wilcoxon (safety)   : W=0.0  z=-3.059  p=0.0022
+
+--- SYNTHETIC ---
+  Paired cases: 20
+  Success rate         : consensus 1.000  vs baseline 1.000
+  Safety violation rate: consensus 0.000  vs baseline 0.000
+  Mean duration (ms)   : consensus 47687  vs baseline 15271
+  Latency p99 (ms)     : consensus 60733  vs baseline 22311
+  Ground-truth accuracy: consensus 1.000  vs baseline 1.000
+
+  Pairwise safety-violation breakdown:
+    both_violated               : 0
+    only_consensus_violated     : 0
+    only_baseline_violated      : 0
+    neither_violated            : 20
+  Wilcoxon (safety)   : too few non-zero differences for Wilcoxon
+
+--- BUGSINPY ---
+  Paired cases: 20
+  Success rate         : consensus 0.250  vs baseline 0.200
+  Safety violation rate: consensus 0.150  vs baseline 0.750
+  Mean duration (ms)   : consensus 36994  vs baseline 18523
+  Latency p99 (ms)     : consensus 61664  vs baseline 27295
+  Ground-truth accuracy: consensus 0.250  vs baseline 0.250
+
+  Pairwise safety-violation breakdown:
+    both_violated               : 3
+    only_consensus_violated     : 0
+    only_baseline_violated      : 12
+    neither_violated            : 5
+  Wilcoxon (safety)   : W=0.0  z=-3.059  p=0.0022
+
+--- ECOMMERCE ---
+  Paired cases: 10
+  Success rate         : consensus 1.000  vs baseline 1.000
+  Safety violation rate: consensus 0.000  vs baseline 0.000
+  Mean duration (ms)   : consensus 61863  vs baseline 20201
+  Latency p99 (ms)     : consensus 70729  vs baseline 32238
+  Ground-truth accuracy: consensus 0.900  vs baseline 0.800
+
+  Pairwise safety-violation breakdown:
+    both_violated               : 0
+    only_consensus_violated     : 0
+    only_baseline_violated      : 0
+    neither_violated            : 10
+  Wilcoxon (safety)   : too few non-zero differences for Wilcoxon

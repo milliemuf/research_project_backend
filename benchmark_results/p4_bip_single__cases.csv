@@ -1,0 +1,21 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+bip-PySnooper-1,PySnooper,False,True,False,True,27695.72,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 339ms))",1,1,1,False,,2026-05-05T10:22:24.565535
+bip-PySnooper-2,PySnooper,False,True,False,True,25584.6,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 344ms))",1,1,1,False,,2026-05-05T10:22:50.151866
+bip-PySnooper-3,PySnooper,False,True,False,True,16518.85,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 197ms))",1,1,1,False,,2026-05-05T10:23:06.672053
+bip-thefuck-1,thefuck,True,True,True,False,18244.51,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T10:23:24.917246
+bip-thefuck-2,thefuck,False,True,False,True,13072.95,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 172ms))",1,1,1,True,,2026-05-05T10:23:37.990504
+bip-thefuck-3,thefuck,True,True,True,False,15183.85,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T10:23:53.174838
+bip-thefuck-4,thefuck,True,True,True,False,23455.44,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T10:24:16.630958
+bip-thefuck-5,thefuck,False,True,False,True,11246.39,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 186ms))",1,1,1,False,,2026-05-05T10:24:27.878038
+bip-thefuck-6,thefuck,False,False,False,False,20359.64,agent_pipeline,healer returned the original code unchanged,0,0,,False,,2026-05-05T10:24:48.238347
+bip-thefuck-7,thefuck,False,True,False,True,16677.87,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 181ms))",1,1,1,False,,2026-05-05T10:25:04.916935
+bip-thefuck-8,thefuck,True,True,True,False,21652.52,done,single-agent baseline: fix passed sandbox,1,1,0,True,,2026-05-05T10:25:26.570229
+bip-thefuck-9,thefuck,False,True,False,True,14789.17,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 172ms))",1,1,1,False,,2026-05-05T10:25:41.359963
+bip-thefuck-10,thefuck,False,True,False,True,24079.42,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 176ms))",1,1,1,False,,2026-05-05T10:26:05.440119
+bip-thefuck-11,thefuck,False,True,False,True,16743.47,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 186ms))",1,1,1,False,,2026-05-05T10:26:22.184709
+bip-thefuck-12,thefuck,False,True,False,True,20213.82,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 186ms))",1,1,1,False,,2026-05-05T10:26:42.399194
+bip-thefuck-13,thefuck,False,True,False,True,15815.56,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 173ms))",1,1,1,False,,2026-05-05T10:26:58.215863
+bip-thefuck-14,thefuck,False,True,False,True,10348.96,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 187ms))",1,1,1,False,,2026-05-05T10:27:08.565390
+bip-thefuck-15,thefuck,False,True,False,True,19528.61,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 236ms))",1,1,1,False,,2026-05-05T10:27:28.094887
+bip-thefuck-16,thefuck,False,True,False,True,21317.37,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 192ms))",1,1,1,False,,2026-05-05T10:27:49.413146
+bip-thefuck-17,thefuck,False,True,False,True,17925.0,sandbox_validation,"single-agent baseline: sandbox rejected (failed (exit 1, 268ms))",1,1,1,False,,2026-05-05T10:28:07.339672

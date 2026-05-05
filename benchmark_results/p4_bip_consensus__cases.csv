@@ -1,0 +1,21 @@
+bug_id,project,success,consensus_approved,sandbox_passed,safety_violation,duration_ms,final_stage,decision_reason,consensus_prepare_votes,consensus_commit_votes,sandbox_exit_code,ground_truth_correct,error,timestamp
+bip-PySnooper-1,PySnooper,False,False,False,False,16819.91,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T09:58:15.808340
+bip-PySnooper-2,PySnooper,False,False,False,False,36204.08,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T09:58:52.012609
+bip-PySnooper-3,PySnooper,False,False,False,False,20987.88,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T09:59:13.000772
+bip-thefuck-1,thefuck,True,True,True,False,58889.34,done,fix approved and sandbox-validated,4,4,0,False,,2026-05-05T10:00:11.890759
+bip-thefuck-2,thefuck,False,False,False,False,23072.79,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:00:34.963813
+bip-thefuck-3,thefuck,True,True,True,False,48277.87,done,fix approved and sandbox-validated,4,4,0,True,,2026-05-05T10:01:23.242045
+bip-thefuck-4,thefuck,True,True,True,False,57301.12,done,fix approved and sandbox-validated,4,4,0,False,,2026-05-05T10:02:20.543717
+bip-thefuck-5,thefuck,False,False,False,False,22750.5,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:02:43.294412
+bip-thefuck-6,thefuck,False,False,False,False,24657.35,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:03:07.951984
+bip-thefuck-7,thefuck,False,True,False,True,52532.34,sandbox_validation,"sandbox rejected: failed (exit 1, 213ms)",3,4,1,False,,2026-05-05T10:04:00.485491
+bip-thefuck-8,thefuck,True,True,True,False,58097.52,done,fix approved and sandbox-validated,4,4,0,True,,2026-05-05T10:04:58.583856
+bip-thefuck-9,thefuck,False,False,False,False,16945.12,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:05:15.529201
+bip-thefuck-10,thefuck,False,False,False,False,23030.27,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:05:38.559797
+bip-thefuck-11,thefuck,True,True,True,False,45024.8,done,fix approved and sandbox-validated,4,4,0,False,,2026-05-05T10:06:23.585897
+bip-thefuck-12,thefuck,False,False,False,False,17821.83,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:06:41.407974
+bip-thefuck-13,thefuck,False,False,False,False,57261.37,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:07:38.669509
+bip-thefuck-14,thefuck,False,False,False,False,18752.09,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:07:57.421767
+bip-thefuck-15,thefuck,False,True,False,True,53382.91,sandbox_validation,"sandbox rejected: failed (exit 1, 197ms)",4,4,1,False,,2026-05-05T10:08:50.805196
+bip-thefuck-16,thefuck,False,True,False,True,62314.62,sandbox_validation,"sandbox rejected: failed (exit 1, 152ms)",4,4,1,False,,2026-05-05T10:09:53.120350
+bip-thefuck-17,thefuck,False,False,False,False,25754.99,agent_pipeline,agent pipeline did not produce a consensus,2,0,,,,2026-05-05T10:10:18.875581
